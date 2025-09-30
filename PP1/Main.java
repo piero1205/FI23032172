@@ -1,5 +1,3 @@
-package inverso.java;
-
 import java.util.Scanner;
 
 public class InversoJava {
