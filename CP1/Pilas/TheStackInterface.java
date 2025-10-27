@@ -1,3 +1,5 @@
+package pilas;
+
 public interface TheStackInterface<Type> {
 
     Boolean push(Type item);
