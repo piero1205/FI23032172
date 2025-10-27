@@ -1,1 +1,28 @@
+package recursividad;
 
+public class Recursividad {
+
+    public static void main(String[] args) {
+        
+        String[] metallics = {
+                "Platinum", // [0]
+                "Golden", // [1]
+                "Silver", // [2]
+                "Bronze", // [3]
+                "Copper", // [4]
+                "Nickel", // [5]
+                "Aluminum", // [6]
+                "Iron", // [7]
+                "Tin", // [8]
+                "Lead", // [9]
+        };
+        for (var z = 0; z < metallics.length; z++) {
+            System.out.println("\n[" + z + "] " + metallics[z]);
+            System.out.println(" ↳ formula(" + z + ")   ≈ " + Numbers.formula(z));
+            System.out.println(" ↳ recursive(" + z + ") ≈ " + Numbers.recursive(z));
+            System.out.println(" ↳ iterative(" + z + ") ≈ " + Numbers.iterative(z));
+        }
+        
+    }
+    
+}
