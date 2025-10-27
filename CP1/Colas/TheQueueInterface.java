@@ -1,6 +1,8 @@
-public interface TheQueueInterface<Type> {
+package colas;
 
-    void enqueue(Type item); // encolar
+public interface TheQueueInterface<Type> {
+    
+     void enqueue(Type item); // encolar
 
     Type dequeue(); // desencolar
 
@@ -13,4 +15,5 @@ public interface TheQueueInterface<Type> {
     String[] getCodons();
 
     String print();
+    
 }
