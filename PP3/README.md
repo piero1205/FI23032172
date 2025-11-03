@@ -1,5 +1,3 @@
-# Proyecto: Lista Circular Doblemente Enlazada
-
 ## Información del estudiante
 **Nombre:** Piero José Carvajal Hidalgo  
 **Carné:** FI23032172  
@@ -36,6 +34,3 @@ Y para una **estructura tipo Pila (Stack)**, usaría una **lista enlazada simple
 **Desventaja:** Las listas creadas manualmente pueden tener más errores y ser menos eficientes que las implementaciones que ya vienen en Java, como `LinkedList` o `ArrayList`, las cuales están optimizadas y ampliamente probadas.
 
 ---
-
-*Archivo de documentación en formato Markdown (README.md)*
-
