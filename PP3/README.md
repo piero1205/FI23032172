@@ -4,6 +4,7 @@
 
 ## IDE o editor utilizado
 **Visual Studio Code (VS Code)**
+**Apache NetBeans**
 
 ## Páginas web consultadas
 - [Introducción a las listas doblemente enlazadas circulares - GeeksforGeeks](https://www.geeksforgeeks.org/dsa/introduction-to-circular-doubly-linked-list/?utm_source=chatgpt.com)  
