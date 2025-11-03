@@ -22,16 +22,15 @@
 ### 1. Si tuviera que implementar una estructura tipo **Cola (Queue)**, ¿qué tipo de lista utilizaría y por qué? ¿Y para una estructura tipo **Pila (Stack)**?
 
 **Respuesta:**  
-Yo usaría una **lista enlazada simple o circular**, porque con una lista enlazada simple es fácil agregar un elemento al final y eliminar del principio sin tener que mover todos los demás elementos.  
-Y para una **estructura tipo Pila (Stack)**, usaría una **lista enlazada simple**, ya que solo necesito agregar y eliminar elementos desde un extremo (el tope), lo que hace que las operaciones sean más rápidas y sencillas.
-
+Yo usaría una lista enlazada simple o circular, porque con una lista enlazada simple, es fácil agregar un elemento al final y eliminar del principio sin tener que mover todos los demás elementos.
+Y para una estructura tipo Pila usaría una lista enlazada simple
 ---
 
 ### 2. ¿Cuál cree que podría ser una ventaja y una desventaja de utilizar una estructura de tipo lista creada por usted mismo, en vez de las opciones provistas directamente por los módulos estándar de Java (como por ejemplo `List`)?
 
 **Respuesta:**  
-**Ventaja:** Al crear mi propia lista, puedo entender mejor cómo funcionan las estructuras internamente. Además, se me hace más fácil comprender su comportamiento y adaptarla según mis necesidades.  
+**Ventaja:** Ventaja: Al hacer yo una lista puedo entender mejor cómo funcionan las estructuras internapente o por lo menos se me hace mas facil de entender  
 
-**Desventaja:** Las listas creadas manualmente pueden tener más errores y ser menos eficientes que las implementaciones que ya vienen en Java, como `LinkedList` o `ArrayList`, las cuales están optimizadas y ampliamente probadas.
+**Desventaja:**Las listas creadas a mano pueden tener más errores y menos eficiencia.
 
 ---
