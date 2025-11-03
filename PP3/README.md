@@ -3,7 +3,7 @@
 **Carné:** FI23032172  
 
 ## IDE o editor utilizado
-**Visual Studio Code (VS Code)**
+**Visual Studio Code (VS Code),**
 **Apache NetBeans**
 
 ## Páginas web consultadas
