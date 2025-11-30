@@ -55,3 +55,6 @@ public class Main {
         Files.writeString(Path.of("matrix.csv"), graph.getMatrix());
     }
 }
+
+//https://www.datacamp.com/es/doc/java/linkedlist?utm_source=chatgpt.com
+//https://chatgpt.com/share/692ba793-36d0-800c-95de-6aee03915b8f
