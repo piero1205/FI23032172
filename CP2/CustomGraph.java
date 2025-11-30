@@ -13,12 +13,20 @@ public class CustomGraph {
     public void addDirectedEdge(char source, char target) {
         addEdge(source, target);
     }
-
+    
     private void addEdge(char source, char target) {
         int src = Arrays.binarySearch(_chars, source);
         int tgt = Arrays.binarySearch(_chars, target);
         
-        // Actualizar
+        if (src < 0 || tgt < 0) {
+            
+            
+            System.out.println("Nodo no encontrado ->" + source + " -> " + target);
+            return;
+        }
+         
+        _matrix[src][tgt] = 1;
+        
     }
 
     public String getMatrix() {
