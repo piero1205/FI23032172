@@ -8,25 +8,34 @@ public class CustomStack {
 
     public void push(String word) {
         var node = new StackNode(word);
-
-        // Actualizar
-
+        
+        node.setNext(_head);
+        _head = node;
+        
         _head = node;
     }
 
     public String pop() {
         String word = null;
-
-        // Actualizar
-
+        
+        if (_head != null) {
+            
+            word = _head.getWord();
+            _head = _head.getNext();
+        }
+        
         return word;
     }
 
     public int size() {
         var length = 0;
-
-        // Actualizar
-
+        
+        StackNode curr = _head;
+        while (curr != null) {
+            length++;
+            curr = curr.getNext();
+        }
+        
         return length;
     }
 
